@@ -2,12 +2,42 @@
   --primary-color: #3a7563;
   --secondary-color: #f0ece2;
   --third-color: #967356;
+  --first-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
-  font-family: "Playfair Display", serif;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
+}
+
+.navbar {
+  background: var(--secondary-color);
+}
+
+.navbar-brand {
+  position: relative;
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav li.active a {
+  color: black;
+  font-weight: bold;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  line-height: 42px;
+  margin-left: 15px;
 }
 
 .intro {
@@ -76,6 +106,25 @@ body {
   height: 400px;
 }
 
+.about-me {
+  position: relative;
+  margin-top: 70px;
+}
+
+.about-me h1 {
+  font-family: var(--first-font-family);
+  font-weight: bold;
+}
+
+.about-me h2 {
+  font-size: 25px;
+}
+
+.about-img {
+  position: relative;
+  margin-left: 200px;
+}
+
 footer {
   margin: 60px 0;
 }
@@ -92,6 +141,8 @@ footer .contact-box p {
 
 footer h4 {
   font-size: 40px;
+  font-family: var(--first-font-family);
+  font-weight: bold;
 }
 
 footer .email-link {
