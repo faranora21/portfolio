@@ -56,6 +56,26 @@ body {
   padding: 12px 25px;
 }
 
+.btn-outline-project {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 25px;
+  padding: 12px 25px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: var(--third-color);
+}
+
+.card-img-top {
+  height: 400px;
+}
+
 footer {
   margin: 60px 0;
 }
