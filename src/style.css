@@ -47,15 +47,15 @@ nav li {
 }
 
 .intro h1 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--first-font-family);
   font-weight: bold;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .intro h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
   font-weight: normal;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .btn-branding {
@@ -114,6 +114,7 @@ nav li {
 .about-me h1 {
   font-family: var(--first-font-family);
   font-weight: bold;
+  font-size: 50px;
 }
 
 .about-me h2 {
@@ -136,6 +137,44 @@ nav li {
   font-family: var(--first-font-family);
   font-size: 50px;
   font-weight: bold;
+}
+
+.contact-container {
+  text-align: center;
+}
+
+.contact-intro {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-intro h1 {
+  text-align: center;
+  font-family: var(--first-font-family);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.contact-intro p {
+  font-size: 20px;
+}
+
+.contact-intro img {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 300px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+.contact i {
+  font-size: 20px;
 }
 
 footer {
