@@ -236,22 +236,22 @@ footer .social-links a {
     font-size: 25px;
   }
 
-  .project.btn-outline {
+  .portfolio .btn-outline {
     display: block;
     margin: 0 auto;
     max-width: 200px;
   }
 
-  .project h2 {
+  .portfolio h2 {
     text-align: center;
   }
 
-  .project p {
+  .portfolio p {
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
   }
 
-  .project img {
+  .portfolio img {
     width: 380px;
     height: 215px;
     display: block;
