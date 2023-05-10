@@ -69,6 +69,10 @@ nav li {
   padding: 18px 25px;
 }
 
+#carouselExampleCaptions {
+  width: 50%;
+}
+
 .feature-project {
   padding: 2%;
 }
@@ -106,9 +110,10 @@ nav li {
   height: 400px;
 }
 
-.about-me-container {
+.about-me {
   position: relative;
   margin-top: 100px;
+  height: 414px;
 }
 
 .about-me h1 {
@@ -124,6 +129,7 @@ nav li {
 .about-img {
   position: relative;
   margin-left: 200px;
+  height: 414px;
 }
 
 .work-intro {
@@ -219,4 +225,79 @@ footer .social-links a {
   color: var(--third-color);
   text-decoration: none;
   transition: all 150ms ease-in-out;
+}
+
+@media (max-width: 600px) {
+  .intro h1 {
+    font-size: 35px;
+  }
+
+  .intro h2 {
+    font-size: 25px;
+  }
+
+  .project.btn-outline {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+  }
+
+  .project h2 {
+    text-align: center;
+  }
+
+  .project p {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .project img {
+    width: 380px;
+    height: 215px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .about-me h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .about-me h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .about-me p {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .about-me .btn-branding {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    max-width: 250px;
+  }
+
+  .work h2 {
+    text-align: center;
+  }
+
+  .work p {
+    text-align: center;
+  }
+
+  .work .btn-outline {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+  }
+
+  .work img {
+    width: 380px;
+    height: 215px;
+    display: block;
+    margin: 0 auto;
+  }
 }
