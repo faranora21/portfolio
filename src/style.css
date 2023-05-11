@@ -25,7 +25,7 @@ nav {
   padding: 20px 0;
 }
 
-nav li.active a {
+.nav-link .active a {
   color: black;
   font-weight: bold;
 }
